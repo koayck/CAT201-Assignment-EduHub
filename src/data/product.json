@@ -1,0 +1,17 @@
+[
+  {
+    "icon": "/src/assets/icon/course-icon.svg",
+    "title": "Interactive Online Courses",
+    "description": "Develop comprehensive online courses covering various tech topics, allowing students to learn at their own pace."
+  },
+  {
+    "icon": "/src/assets/icon/bootcamp-icon.svg",
+    "title": "Coding Bootcamps",
+    "description": "Intensive coding bootcamps to fast-track learning and skill development in specific programming languages or technologies."
+  },
+  {
+    "icon": "/src/assets/icon/consultation-icon.svg",
+    "title": "Tech Consultation",
+    "description": "One-on-one sessions for tailored career advice and skill development guidance by industry experts."
+  }
+]
