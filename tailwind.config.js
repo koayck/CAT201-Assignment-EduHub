@@ -5,13 +5,14 @@ module.exports = {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     fontSize: {
-      sm: ["14px", "16.8px"],   
-      base: ["16px", "19.2px"],  
-      lg: ["20px", "24px"],     
-      xl: ["24px", "28.8px"],   
-      "2xl": ["27px", "32.4px"],
-      "3xl": ["36px", "43.2px"],
-      "4xl": ["80px", "96px"],  
+      sm: ["14px", "16.8px"],
+      base: ["16px", "19.2px"],
+      lg: ["21px", "24px"],
+      xl: ["27px", "32.4px"],
+      "2xl": ["36px", "43.2px"],
+      "3xl": ["47px", "51.84px"], 
+      "4xl": ["61px", "73.2px"],
+      "5xl": ["80px", "96px"],
     },
     extend: {
       fontFamily: {
@@ -59,10 +60,9 @@ module.exports = {
           black: "#080f1f",
           white: "#f4f8ff",
         },
-        screens: {
-          sm: "450px",
-          md: "768px",
-        },
+      },
+      screens: {
+        'sm': '450px',
       },
     },
   },
