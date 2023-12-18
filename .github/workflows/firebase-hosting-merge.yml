@@ -30,4 +30,5 @@ jobs:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_EDUHUB2023 }}'
           projectId: eduhub2023
-          
+          channelId: live
+
