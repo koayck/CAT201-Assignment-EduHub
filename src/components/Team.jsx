@@ -13,10 +13,11 @@ const Team = () => {
             Meet the dynamic team driving EduHub's vision for mastery-focused
             tech education.
           </p>
+          {/* team member card */}
           <div className="mt-10 md:mt-12 flex max-[590px]:flex-wrap gap-x-4 gap-y-8 lg:gap-x-12">
             {TeamList.map((member) => (
               <div key={member.name} className="flex flex-col basis-2/5 md:basis-1/5 grow h-max">
-                <img src={member.photo} alt={member.name + "Photo"} className="h-full object-cover grow" />
+                <img src={`/assets/team/${member.slug}.jpg`} alt={member.name + "Photo"} className="h-full object-cover grow" />
                 <p className="text-sm font-medium text-grey-600 mt-4">
                   {member.position}
                 </p>

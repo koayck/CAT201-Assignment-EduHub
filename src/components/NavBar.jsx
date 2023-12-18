@@ -2,6 +2,7 @@ import { useEffect } from "react";
 
 const NavBar = () => {
   useEffect(() => {
+    // to collapse navbar after scrolling
     let path = window.location.pathname;
 
     if (!path.includes("dashboard")) {
@@ -28,13 +29,14 @@ const NavBar = () => {
           <div className="navbar-start">
             <a href="#" aria-label="EduHub Logo">
               <img
-                src="/src/assets/logo/eduhub-logo-color.png"
-                alt=""
+                src="/assets/logo/eduhub-logo-color.png"
+                alt="EduHub Logo in Color"
                 className="max-h-12"
               />
             </a>
           </div>
           <div className="navbar-end ">
+            {/* navigation hamburger for mobile and tablet view */}
             <div className="dropdown dropdown-end">
               <div
                 tabIndex="0"
@@ -61,6 +63,8 @@ const NavBar = () => {
                 </li>
               </ul>
             </div>
+
+            {/* navigation bar for desktop view */}
             <ul className="menu menu-horizontal px-1 text-base font-primary font-bold gap-8 text-white max-lg:hidden hover:[&>li>a]:text-accent-300">
               <li>
                 <a href="#">Home</a>

@@ -8,8 +8,8 @@ const About = () => {
           <div className="max-md:hidden basis-2/5 relative group ">
             <div className="bg-primary-500 h-full w-full absolute group-hover:translate-x-6 group-hover:translate-y-6 duration-300 transition-all"></div>
             <img
-              src="/src/assets/logo/eduhub-branding.png"
-              alt=""
+              src="/assets/logo/eduhub-branding.png"
+              alt="EduHub Branding Logo"
               className="absolute transform translate-x-6 translate-y-6 h-full w-full object-cover z-[10] block group-hover:-translate-x-0 group-hover:-translate-y-0 group-hover:shadow-lg duration-300 transition-all"
             />
           </div>
@@ -29,8 +29,8 @@ const About = () => {
             <div className="max-lg:hidden flex flex-col md:flex-row justify-center gap-16 mt-10">
               <div className="flex flex-col gap-6">
                 <img
-                  src="/src/assets/icon/mission-icon.svg"
-                  alt=""
+                  src="/assets/icon/mission-icon.svg"
+                  alt="EduHub Mission Icon"
                   width="48px"
                   height="48px"
                 />
@@ -41,8 +41,8 @@ const About = () => {
               </div>
               <div className="flex md:flex-col gap-6">
                 <img
-                  src="/src/assets/icon/vision-icon.svg"
-                  alt=""
+                  src="/assets/icon/vision-icon.svg"
+                  alt="EduHub Vision Icon"
                   width="48px"
                   height="48px"
                 />
@@ -58,8 +58,8 @@ const About = () => {
         <div className="lg:hidden flex flex-col sm:flex-row justify-center items-center gap-6 sm:gap-8 md:mt-16">
           <div className="flex sm:flex-col gap-6">
             <img
-              src="/src/assets/icon/mission-icon.svg"
-              alt=""
+              src="/assets/icon/mission-icon.svg"
+              alt="EduHub Mission Icon"
               width="48px"
               height="48px"
             />
@@ -70,8 +70,8 @@ const About = () => {
           </div>
           <div className="flex sm:flex-col gap-6">
             <img
-              src="/src/assets/icon/vision-icon.svg"
-              alt=""
+              src="/assets/icon/vision-icon.svg"
+              alt="EduHub Vision Icon"
               width="48px"
               height="48px"
             />

@@ -1,5 +1,5 @@
 import Lottie from "lottie-react";
-import gradHat from "../assets/gradhat.json";
+import gradHat from "../static/gradhat.json";
 
 const HeroSection = () => {
   return (
@@ -25,7 +25,7 @@ const HeroSection = () => {
             <a
               role="button"
               href="#about"
-              className="btn btn-md md:btn-lg  bg-green-500 text-white border-0 hover:bg-green-700 flex max-md:justify-center max-md:items-center mt-12 md:mt-10 w-fit"
+              className="btn btn-md md:btn-lg  bg-green-500 text-white border-0 hover:bg-green-700 max-[600px]:mx-auto flex  mt-12 md:mt-10 w-fit"
             >
               More About Eduhub
               <i className="fa-solid fa-arrow-right"></i>

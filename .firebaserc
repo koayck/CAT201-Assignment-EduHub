@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "default": "eduhub2023",
+    "staging": "eduhub2023"
+  },
+  "targets": {},
+  "etags": {}
+}

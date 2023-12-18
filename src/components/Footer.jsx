@@ -13,8 +13,8 @@ const Footer = () => {
         </nav>
         <aside>
           <img
-            src="/src/assets/logo/eduhub-logo-white.png"
-            alt=""
+            src="/assets/logo/eduhub-logo-white.png"
+            alt="EduHub Logo in White"
             width="300px"
             height="60px"
             className="max-sm:scale-75"
@@ -29,9 +29,9 @@ const Footer = () => {
         </aside>
         <nav className="mt-8">
           <div className="grid grid-flow-col gap-4">
-            <a href="https://twitter.com/EduHub333095" target="_blank" aria-label="EduHub Twitter"><i class="fa-brands fa-square-x-twitter text-xl hover:text-neutral-white duration-300"></i></a>
-            <a href="https://www.linkedin.com/in/edu-hub-a45b792a4/" target="_blank" aria-label="EduHub LinkedIn"><i class="fa-brands fa-linkedin text-xl hover:text-neutral-white duration-300"></i></a>
-            <a href="https://discord.gg/USaSpBK7" target="_blank" aria-label="EduHub Discord"><i class="fa-brands fa-discord text-xl hover:text-neutral-white duration-300"></i></a>
+            <a href="https://twitter.com/EduHub333095" target="_blank" aria-label="EduHub Twitter"><i className="fa-brands fa-square-x-twitter text-xl hover:text-neutral-white duration-300"></i></a>
+            <a href="https://www.linkedin.com/in/edu-hub-a45b792a4/" target="_blank" aria-label="EduHub LinkedIn"><i className="fa-brands fa-linkedin text-xl hover:text-neutral-white duration-300"></i></a>
+            <a href="https://discord.gg/USaSpBK7" target="_blank" aria-label="EduHub Discord"><i className="fa-brands fa-discord text-xl hover:text-neutral-white duration-300"></i></a>
           </div>
         </nav>
       </Section>
