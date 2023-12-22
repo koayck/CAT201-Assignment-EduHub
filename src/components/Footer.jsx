@@ -1,15 +1,15 @@
 import Section from "./layout/Section";
 
-const Footer = () => {
+const Footer = ({heroSection, aboutSection, productSection, teamSection, scrollToRef}) => {
   return (
     <footer className="footer footer-center bg-primary-800">
       <Section>
         <div className="text-base font-medium text-grey-200 mb-2">Navigation</div>
         <nav className="flex flex-wrap gap-4 md:gap-12 mb-8 text-white hover:[&>a]:text-accent-300 [&>a]:duration-300 [&>a]:transition-all text-base">
-          <a href="#" className="link link-hover">Home</a>
-          <a href="#about" className="link link-hover">About</a>
-          <a href="#service" className="link link-hover">Product</a>
-          <a href="#team" className="link link-hover">Team</a>
+          <button onClick={() => scrollToRef(heroSection)} className="link link-hover">Home</button>
+          <button onClick={() => scrollToRef(aboutSection)} className="link link-hover">About</button>
+          <button onClick={() => scrollToRef(productSection)} className="link link-hover">Product</button>
+          <button onClick={() => scrollToRef(teamSection)} className="link link-hover">Team</button>
         </nav>
         <aside>
           <img

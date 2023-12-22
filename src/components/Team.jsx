@@ -1,9 +1,10 @@
+import React from "react";
 import Section from "./layout/Section";
 import TeamList from "../data/team.json";
 
-const Team = () => {
+const Team = React.forwardRef((props, ref) => {
   return (
-    <div className="bg-white relative" id="team">
+    <div ref={ref} className="bg-white relative" id="team">
       <Section>
         <div className="flex flex-col justify-center max-md:items-center">
           <h2 className="text-xl md:text-2xl font-primary font-bold text-neutral-black text-center w-fit">
@@ -28,6 +29,6 @@ const Team = () => {
       </Section>
     </div>
   );
-};
+});
 
 export default Team;

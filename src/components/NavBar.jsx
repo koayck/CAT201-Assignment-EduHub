@@ -1,8 +1,14 @@
 import { useEffect } from "react";
 
-const NavBar = () => {
+const NavBar = ({
+  heroSection,
+  aboutSection,
+  productSection,
+  teamSection,
+  scrollToRef,
+}) => {
   useEffect(() => {
-    // to collapse navbar after scrolling
+    //onClick={scrollToRef} to collapse navbar after scrolling
     let path = window.location.pathname;
 
     if (!path.includes("dashboard")) {
@@ -50,33 +56,39 @@ const NavBar = () => {
                 className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
               >
                 <li>
-                  <a href="#">Home</a>
+                  <button className="btn" onClick={() => scrollToRef(heroSection)}>Home</button>
                 </li>
                 <li>
-                  <a href="#about">About</a>
+                  <button  className="btn" onClick={() => scrollToRef(aboutSection)}>
+                    About
+                  </button>
                 </li>
                 <li>
-                  <a href="#service">Product</a>
+                  <button  className="btn" onClick={() => scrollToRef(productSection)}>
+                    Product
+                  </button>
                 </li>
                 <li>
-                  <a href="#team">Team</a>
+                  <button  className="btn" onClick={() => scrollToRef(teamSection)}>Team</button>
                 </li>
               </ul>
             </div>
 
             {/* navigation bar for desktop view */}
-            <ul className="menu menu-horizontal px-1 text-base font-primary font-bold gap-8 text-white max-lg:hidden hover:[&>li>a]:text-accent-300">
+            <ul className="menu menu-horizontal px-1 text-base font-primary font-bold gap-8 text-white max-lg:hidden hover:[&>li>button]:text-accent-300 focus:[&>li>button]:text-white focus:[&>li>button]:bg-transparent">
               <li>
-                <a href="#">Home</a>
+                <button onClick={() => scrollToRef(heroSection)}>Home</button>
               </li>
               <li>
-                <a href="#about">About</a>
+                <button onClick={() => scrollToRef(aboutSection)}>About</button>
               </li>
               <li>
-                <a href="#service">Product</a>
+                <button onClick={() => scrollToRef(productSection)}>
+                  Product
+                </button>
               </li>
               <li>
-                <a href="#team">Team</a>
+                <button onClick={() => scrollToRef(teamSection)}>Team</button>
               </li>
             </ul>
           </div>

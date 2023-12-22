@@ -1,10 +1,12 @@
+import React from "react";
 import Lottie from "lottie-react";
 import gradHat from "../static/gradhat.json";
 
-const HeroSection = () => {
+const HeroSection = React.forwardRef((props, ref) => {
   return (
     <>
       <div
+        ref={ref}
         className="h-[calc(500px+80px)] md:h-[calc(650px+83.2px)] flex justify-center items-center"
         style={{
           backgroundImage:
@@ -38,6 +40,6 @@ const HeroSection = () => {
       </div>
     </>
   );
-};
+});
 
 export default HeroSection;
