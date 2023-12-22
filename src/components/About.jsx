@@ -58,7 +58,7 @@ const About = React.forwardRef((props, ref) => {
               </div>
             </div>
           </div>
-          <hr className="md:hidden border-grey-100 w-full my-6" />
+          <hr className="md:hidden border-grey-100 w-full my-6" data-aos="fade-up" data-aos-delay="800" />
           <div className="lg:hidden flex flex-col sm:flex-row justify-center items-center gap-6 sm:gap-8 md:mt-16">
             <div className="flex sm:flex-col gap-6">
               <img
@@ -66,8 +66,9 @@ const About = React.forwardRef((props, ref) => {
                 alt="EduHub Mission Icon"
                 width="48px"
                 height="48px"
+                data-aos="zoom-in" data-aos-delay="800"
               />
-              <p className="text-justify text-grey-800">
+              <p className="text-justify text-grey-800" data-aos="fade-up" data-aos-delay="950">
                 EduHub empowers global learners with mastery-focused tech
                 education for real-world impact.
               </p>
@@ -78,8 +79,9 @@ const About = React.forwardRef((props, ref) => {
                 alt="EduHub Vision Icon"
                 width="48px"
                 height="48px"
+                data-aos="zoom-in" data-aos-delay="800"
               />
-              <p className="text-justify text-grey-800">
+              <p className="text-justify text-grey-800" data-aos="fade-up" data-aos-delay="950">
                 To be the catalyst for transformative tech education, unlocking
                 potential and driving positive change worldwide.
               </p>
