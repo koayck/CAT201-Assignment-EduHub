@@ -1,21 +1,21 @@
 [
     {
-      "photo": "/public/assets/team/koay-chun-keat.jpg",
+      "photo": "/assets/team/koay-chun-keat.jpg",
       "position": "CLO",
       "name": "Koay Chun Keat"
     },
     {
-      "photo": "/public/assets/team/lai-yicheng.jpg",
+      "photo": "/assets/team/lai-yicheng.jpg",
       "position": "Tech Evangelist",
       "name": "Lai Yicheng"
     },
     {
-      "photo": "/public/assets/team/ang-de-jie.jpg",
+      "photo": "/assets/team/ang-de-jie.jpg",
       "position": "Curriculum Developer",
       "name": "Ang De Jie"
     },
     {
-      "photo": "/public/assets/team/lee-ying-shen.jpg",
+      "photo": "/assets/team/lee-ying-shen.jpg",
       "position": "Community Manager",
       "name": "Lee Ying Shen"
     }
