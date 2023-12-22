@@ -7,9 +7,11 @@ import Team from "./components/Team";
 import HeroSection from "./components/HeroSection";
 import HeroCard from "./components/HeroCard";
 import About from "./components/About";
-import { useRef } from "react";
+import { useEffect, useRef } from "react";
 
 function App() {
+
+
   const heroSection = useRef(null);
   const aboutSection = useRef(null);
   const productSection = useRef(null);

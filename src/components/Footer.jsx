@@ -6,10 +6,10 @@ const Footer = ({heroSection, aboutSection, productSection, teamSection, scrollT
       <Section>
         <div className="text-base font-medium text-grey-200 mb-2">Navigation</div>
         <nav className="flex flex-wrap gap-4 md:gap-12 mb-8 text-white hover:[&>a]:text-accent-300 [&>a]:duration-300 [&>a]:transition-all text-base">
-          <button onClick={() => scrollToRef(heroSection)} className="link link-hover">Home</button>
-          <button onClick={() => scrollToRef(aboutSection)} className="link link-hover">About</button>
-          <button onClick={() => scrollToRef(productSection)} className="link link-hover">Product</button>
-          <button onClick={() => scrollToRef(teamSection)} className="link link-hover">Team</button>
+          <button aria-label="Home" onClick={() => scrollToRef(heroSection)} className="link link-hover">Home</button>
+          <button aria-label="About" onClick={() => scrollToRef(aboutSection)} className="link link-hover">About</button>
+          <button aria-label="Product" onClick={() => scrollToRef(productSection)} className="link link-hover">Product</button>
+          <button aria-label="Team" onClick={() => scrollToRef(teamSection)} className="link link-hover">Team</button>
         </nav>
         <aside>
           <img

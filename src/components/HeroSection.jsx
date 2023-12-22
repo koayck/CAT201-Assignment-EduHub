@@ -17,23 +17,44 @@ const HeroSection = React.forwardRef((props, ref) => {
         <div className="h-[83.2px]"></div>
         <div className="flex justify-center lg:justify-between items-center max-sm:px-6 max-md:px-8 max-lg:px-9 px-14 max-w-[1200px] w-full">
           <div className="flex flex-col">
-            <h1 className="text-3xl md:text-4xl lg:text-5xl max-[600px]:text-center font-primary font-bold text-primary-100 [text-shadow:2px_2px_0px_#00000033]">
+            <h1
+              className="text-3xl md:text-4xl lg:text-5xl max-[600px]:text-center font-primary font-bold text-primary-100 [text-shadow:2px_2px_0px_#00000033]"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
               Learn From{" "}
-              <span className="block text-white "> Anywhere, Anytime</span>
+              <span
+                className="block text-white "
+                data-aos="fade-up"
+                data-aos-delay="200"
+              >
+                {" "}
+                Anywhere, Anytime
+              </span>
             </h1>
-            <div className="mt-6 md:mt-2 text-base md:text-lg text-grey-100 font-primary max-sm:text-center">
+            <div
+              className="mt-6 md:mt-2 text-base md:text-lg text-grey-100 font-primary max-sm:text-center"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
               Your Mastery-Based, Flexible Path to Tech Excellence.
             </div>
-            <a
-              role="button"
-              href="#about"
-              className="btn btn-md md:btn-lg  bg-green-500 text-white border-0 hover:bg-green-700 max-[600px]:mx-auto flex  mt-12 md:mt-10 w-fit"
-            >
-              More About Eduhub
-              <i className="fa-solid fa-arrow-right"></i>
-            </a>
+            <div data-aos="fade-up" data-aos-delay="500" id="cardTrigger">
+              <a
+                role="button"
+                href="#about"
+                className="btn btn-md md:btn-lg  bg-green-500 text-white border-0 hover:bg-green-700 max-[600px]:mx-auto flex  mt-12 md:mt-10 w-fit"
+              >
+                More About Eduhub
+                <i className="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
           </div>
-          <div className="max-[600px]:hidden">
+          <div
+            className="max-[600px]:hidden"
+            data-aos="zoom-in"
+            data-aos-delay="550"
+          >
             <Lottie animationData={gradHat} loop={true} />
           </div>
         </div>

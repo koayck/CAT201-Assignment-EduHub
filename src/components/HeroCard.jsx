@@ -1,6 +1,7 @@
 const HeroCard = () => {
   return (
-    <section className="max-sm:px-6 max-md:px-8 max-lg:px-9 px-14 max-w-[1200px] mx-auto relative -mt-16">
+    <section className="max-sm:px-6 max-md:px-8 max-lg:px-9 px-14 max-w-[1200px] mx-auto relative -mt-16" data-aos="fade-up" data-aos-delay="100" data-aos-anchor="#cardTrigger" data-aos-anchor-placement="top-center"
+    >
       <div className="bg-[#ffffff] shadow-lg shadow-blue-100 rounded-3xl px-4 py-10 md:py-12 mx-auto ">
         <div className="flex flex-col justify-center items-center gap-8">
           <div className="flex flex-col justify-center items-center gap-1">
