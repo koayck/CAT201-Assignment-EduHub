@@ -20,13 +20,13 @@ const HeroSection = React.forwardRef((props, ref) => {
             <h1
               className="text-3xl md:text-4xl lg:text-5xl max-[600px]:text-center font-primary font-bold text-primary-100 [text-shadow:2px_2px_0px_#00000033]"
               data-aos="fade-up"
-              data-aos-delay="100"
+              data-aos-delay="200"
             >
               Learn From{" "}
               <span
                 className="block text-white "
                 data-aos="fade-up"
-                data-aos-delay="200"
+                data-aos-delay="300"
               >
                 {" "}
                 Anywhere, Anytime
@@ -35,11 +35,11 @@ const HeroSection = React.forwardRef((props, ref) => {
             <div
               className="mt-6 md:mt-2 text-base md:text-lg text-grey-100 font-primary max-sm:text-center"
               data-aos="fade-up"
-              data-aos-delay="300"
+              data-aos-delay="400"
             >
               Your Mastery-Based, Flexible Path to Tech Excellence.
             </div>
-            <div data-aos="fade-up" data-aos-delay="500" id="cardTrigger">
+            <div data-aos="fade-up" data-aos-delay="600" id="cardTrigger">
               <a
                 role="button"
                 href="#about"
@@ -53,7 +53,7 @@ const HeroSection = React.forwardRef((props, ref) => {
           <div
             className="max-[600px]:hidden"
             data-aos="zoom-in"
-            data-aos-delay="550"
+            data-aos-delay="650"
           >
             <Lottie animationData={gradHat} loop={true} />
           </div>
