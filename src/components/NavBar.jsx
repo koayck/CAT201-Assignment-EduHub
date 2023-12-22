@@ -31,7 +31,7 @@ const NavBar = ({
       <div id="navbar" className="fixed z-[100] w-full transition-all" data-aos="fade-right" >
         <div className="navbar py-4 max-sm:px-6 max-md:px-8 max-lg:px-9 px-14 max-w-[1200px] mx-auto">
           <div className="navbar-start">
-            <a href="#" aria-label="EduHub Logo">
+            <a aria-label="EduHub Logo">
               <img
                 src="/assets/logo/eduhub-logo-color.png"
                 alt="EduHub Logo in Color"
