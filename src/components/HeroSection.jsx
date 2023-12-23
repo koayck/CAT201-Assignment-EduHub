@@ -2,7 +2,7 @@ import React from "react";
 import Lottie from "lottie-react";
 import gradHat from "../static/gradhat.json";
 
-const HeroSection = React.forwardRef((props, ref) => {
+const HeroSection = React.forwardRef(({scrollToRef, aboutSection}, ref) => {
   return (
     <>
       <div
@@ -40,14 +40,16 @@ const HeroSection = React.forwardRef((props, ref) => {
               Your Mastery-Based, Flexible Path to Tech Excellence.
             </div>
             <div data-aos="fade-up" data-aos-delay="600" id="cardTrigger">
-              <a
+              <button
                 role="button"
-                href="#about"
+                onClick={() => {
+                  scrollToRef(aboutSection);
+                }}
                 className="btn btn-md md:btn-lg  bg-green-500 text-white border-0 hover:bg-green-700 max-[600px]:mx-auto flex  mt-12 md:mt-10 w-fit"
               >
                 More About Eduhub
                 <i className="fa-solid fa-arrow-right"></i>
-              </a>
+              </button>
             </div>
           </div>
           <div

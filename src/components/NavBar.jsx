@@ -31,13 +31,13 @@ const NavBar = ({
       <div id="navbar" className="fixed z-[100] w-full transition-all" data-aos="fade-right" >
         <div className="navbar py-4 max-sm:px-6 max-md:px-8 max-lg:px-9 px-14 max-w-[1200px] mx-auto">
           <div className="navbar-start">
-            <a aria-label="EduHub Logo">
+            <button aria-label="EduHub Logo" onClick={() => scrollToRef(heroSection)}>
               <img
                 src="/assets/logo/eduhub-logo-color.png"
                 alt="EduHub Logo in Color"
                 className="max-h-12"
               />
-            </a>
+            </button>
           </div>
           <div className="navbar-end ">
             {/* navigation hamburger for mobile and tablet view */}

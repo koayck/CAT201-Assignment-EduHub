@@ -28,7 +28,7 @@ function App() {
         productSection={productSection}
         teamSection={teamSection}
       />
-      <HeroSection ref={heroSection} />
+      <HeroSection ref={heroSection} scrollToRef={scrollToRef} aboutSection={aboutSection} />
       <HeroCard />
       <About ref={aboutSection} />
       <Product ref={productSection} />
