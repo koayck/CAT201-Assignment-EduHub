@@ -9,7 +9,7 @@ const Statistic = () => {
         </h2>
         <p className="mt-2 max-sm:text-center text-base md:text-lg text-grey-400 font-primary" data-aos="fade-up" data-aos-delay="200">
           Here, it's not just about education, but an{" "}
-          <span className="text-grey-900 font-bold">academic evolution</span>.
+          <span className="text-grey-900 font-bold">academic revolution</span>.
         </p>
         <div className="mt-12 md:mt-14 flex flex-wrap max-lg:justify-center gap-6 md:gap-x-24 md:gap-y-6 max-sm:mx-4 max-md:mx-10" data-aos="zoom-in-up" data-aos-delay="700">
           <div className="flex flex-col basis-2/5 grow">
