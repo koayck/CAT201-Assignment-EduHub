@@ -4,7 +4,7 @@ import TeamList from "../data/team.json";
 
 const Team = React.forwardRef((props, ref) => {
   return (
-    <div ref={ref} className="bg-white relative">
+    <section ref={ref}>
       <Section>
         <div className="flex flex-col justify-center max-md:items-center">
           <h2 className="text-xl md:text-2xl font-primary font-bold text-neutral-black text-center w-fit" data-aos="fade-up" data-aos-delay="100">
@@ -27,7 +27,7 @@ const Team = React.forwardRef((props, ref) => {
           </div>
         </div>
       </Section>
-    </div>
+    </section>
   );
 });
 

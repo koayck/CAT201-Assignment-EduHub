@@ -7,7 +7,8 @@ import Team from "./components/Team";
 import HeroSection from "./components/HeroSection";
 import HeroCard from "./components/HeroCard";
 import About from "./components/About";
-import { useEffect, useRef } from "react";
+import Video from "./components/Video"; 
+import { useRef } from "react";
 
 function App() {
 
@@ -32,6 +33,7 @@ function App() {
       <HeroCard />
       <About ref={aboutSection} />
       <Product ref={productSection} />
+      <Video /> 
       <Statistics />
       <Team ref={teamSection} />
       <Footer
