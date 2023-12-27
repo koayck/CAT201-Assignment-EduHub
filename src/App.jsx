@@ -7,12 +7,10 @@ import Team from "./components/Team";
 import HeroSection from "./components/HeroSection";
 import HeroCard from "./components/HeroCard";
 import About from "./components/About";
-import Video from "./components/Video"; 
+import Video from "./components/Video";
 import { useRef } from "react";
 
 function App() {
-
-
   const heroSection = useRef(null);
   const aboutSection = useRef(null);
   const productSection = useRef(null);
@@ -29,11 +27,15 @@ function App() {
         productSection={productSection}
         teamSection={teamSection}
       />
-      <HeroSection ref={heroSection} scrollToRef={scrollToRef} aboutSection={aboutSection} />
+      <HeroSection
+        ref={heroSection}
+        scrollToRef={scrollToRef}
+        aboutSection={aboutSection}
+      />
       <HeroCard />
       <About ref={aboutSection} />
       <Product ref={productSection} />
-      <Video /> 
+      <Video />
       <Statistics />
       <Team ref={teamSection} />
       <Footer
