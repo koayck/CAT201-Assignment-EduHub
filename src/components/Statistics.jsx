@@ -13,7 +13,7 @@ const Statistic = () => {
             <span className="text-primary-500">EduHub</span>, But In Numbers
           </h2>
           <p
-            className="mt-2 max-sm:text-center text-base md:text-lg text-grey-400 font-primary"
+            className="mt-2 max-sm:text-center text-base text-grey-400 font-primary"
             data-aos="fade-up"
             data-aos-delay="200"
           >

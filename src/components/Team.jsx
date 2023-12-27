@@ -10,7 +10,7 @@ const Team = React.forwardRef((props, ref) => {
           <h2 className="text-xl md:text-2xl font-primary font-bold text-neutral-black text-center w-fit" data-aos="fade-up" data-aos-delay="100">
             Driving Forces Behind EduHub
           </h2>
-          <p className="mt-2 max-sm:text-center text-base md:text-lg text-grey-400 font-primary" data-aos="fade-up" data-aos-delay="200">
+          <p className="mt-2 max-sm:text-center text-base text-grey-400 font-primary" data-aos="fade-up" data-aos-delay="200">
             Meet the dynamic team driving EduHub's vision for mastery-focused
             tech education.
           </p>
